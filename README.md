@@ -38,7 +38,7 @@ Folder Structure :
 │── README.md
 │── requirements.txt
 │── .gitignore
-│── .env                 # (NOT pushed, contains API keys)
+│── .env                 
 
 
 Setup Instructions
