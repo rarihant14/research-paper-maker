@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BACKEND_URL = "https://research-paper-maker.streamlit.app"
+BACKEND_URL = "https://research-paper-maker.onrender.com"
 
 st.set_page_config(page_title="AI Research Paper Maker", layout="wide")
 st.title("📄 AI Research Paper Maker")
