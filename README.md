@@ -45,27 +45,27 @@ Setup Instructions
 
 1. Clone the repository
 
-git clone https://github.com/rarihant14/research-paper.git
-cd research-paper-maker
+          git clone https://github.com/rarihant14/research-paper.git
+          cd research-paper-maker
 
 
 2. Create virtual environment
 
-python -m venv venv
-source venv/bin/activate       # Linux/macOS
-venv\Scripts\activate          # Windows
+       python -m venv venv
+       source venv/bin/activate       # Linux/macOS
+       venv\Scripts\activate          # Windows
 
 
 
 
 3. Install dependencies
 
-      pip install -r requirements.txt
+        pip install -r requirements.txt
 
 
 4. Create .env file in project root with your API keys:
  
- TAVILY_API_KEY=your-tavily-key
- GROQ_API_KEY=your-groq-key
- GEMINI_API_KEY=your-gemini-key
- LANGSMITH_API_KEY=your-langsmith-key
+        TAVILY_API_KEY=your-tavily-key
+        GROQ_API_KEY=your-groq-key
+        GEMINI_API_KEY=your-gemini-key
+       LANGSMITH_API_KEY=your-langsmith-key
