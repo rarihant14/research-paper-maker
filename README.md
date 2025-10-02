@@ -45,7 +45,7 @@ Setup Instructions
 
 1. Clone the repository
 
-git clone https://github.com/rarihant14/research-paper-maker.git
+git clone https://github.com/rarihant14/research-paper.git
 cd research-paper-maker
 
 
