@@ -26,19 +26,19 @@ The backend is built with FastAPI, and the frontend uses Streamlit. Jobs are tra
 
 Folder Structure : 
   
-│── backend/
-│   ├── __init__.py
-│   ├── main.py          
-│   ├── services.py     
-│   ├── workflow.py      
-│   ├── jobs.py          
-│   └── utils.py         
-│
-│── app.py           
-│── README.md
-│── requirements.txt
-│── .gitignore
-│── .env                 
+    │── backend
+    ├── __init__.py
+    ├── main.py          
+    ├── services.py     
+    ├── workflow.py      
+    ├── jobs.py          
+    └── utils.py         
+    │
+     │── app.py           
+     │── README.md
+     │── requirements.txt
+     │── .gitignore
+     │── .env                 
 
 
 Setup Instructions
@@ -69,3 +69,4 @@ Setup Instructions
         GROQ_API_KEY=your-groq-key
         GEMINI_API_KEY=your-gemini-key
        LANGSMITH_API_KEY=your-langsmith-key
+       LANGSMITH_PROJECT="project_name"
