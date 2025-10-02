@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
 
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = "https://research-backend.onrender.com"
+
 
 st.set_page_config(page_title="AI Research Paper Maker", layout="wide")
 st.title("📄 AI Research Paper Maker")
